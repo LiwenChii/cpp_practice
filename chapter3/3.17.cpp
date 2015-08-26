@@ -25,6 +25,8 @@ int main()
 	{
 		cout << c << endl;
 	}
+	
+	return 0;
 }
 
 void to_capital(vector<string> &vec)

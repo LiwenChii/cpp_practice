@@ -18,6 +18,8 @@ int main()
 	{
 		cout << i << endl;
 	}
+	
+	return 0;
 }
 
 void mul_by_two(vector<int> &vec)

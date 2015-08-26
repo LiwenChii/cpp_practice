@@ -25,4 +25,6 @@ int main()
 	{
 		cout << "The vectors are not equal" << endl;
 	}
+	
+	return 0;
 }

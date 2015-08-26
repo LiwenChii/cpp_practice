@@ -26,6 +26,8 @@ int main()
 	{
 		cout << str << endl;
 	}
+	
+	return 0;
 }
 
 void to_upper(vector<string> &vec)
