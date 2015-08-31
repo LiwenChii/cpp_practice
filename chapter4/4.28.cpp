@@ -17,5 +17,5 @@ int main()
 	cout << "char32_t: " << sizeof(char32_t) << "bytes" << endl;
 	cout << "longdouble: " << sizeof(long double) << "bytes" << endl;
 
-
+	return 0;
 }
