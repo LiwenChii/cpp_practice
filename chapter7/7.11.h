@@ -11,12 +11,12 @@ struct Sales_data{
 
 	Sales_data() = default;
 	Sales_data(const string &s) :bookno(s){};
-	Sales_data(const string &s, unsigned n, double r) :bookno(s), units_sold(n), revenue(r){};
+	Sales_data(const string &s, unsigned n, double r) :bookno(s), units_sold(n), revenue(r){}
 	Sales_data(istream &is);
 
 	Sales_data& combine(const Sales_data &item);
-	string isbn()const{ return bookno; };
-	double avg_price()const{ return revenue / units_sold; };
+	string isbn()const{ return bookno; }
+	double avg_price()const{ return revenue / units_sold; }
 
 	string bookno;
 	unsigned units_sold = 0;

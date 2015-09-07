@@ -8,12 +8,12 @@ using std::ostream;
 using std::string;
 
 struct Person{
-	Person(const string &n, const string &a) :name(n), address(a){};
-	Person(const string &n) :name(n){};
+	Person(const string &n, const string &a) :name(n), address(a){}
+	Person(const string &n) :name(n){}
 	Person() = default;
 
-	const string& getname()const{ return name; };
-	const string& getaddress()const{ return address; };
+	const string& getname()const{ return name; }
+	const string& getaddress()const{ return address; }
 
 	string name;
 	string address;

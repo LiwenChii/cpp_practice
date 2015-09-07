@@ -6,8 +6,8 @@ using std::string;
 
 struct Sales_data{
 	Sales_data& combine(const Sales_data &item);
-	string isbn()const{ return bookno; };
-	double avg_price()const{ return revenue / units_sold; };
+	string isbn()const{ return bookno; }
+	double avg_price()const{ return revenue / units_sold; }
 
 	string bookno;
 	unsigned units_sold = 0;

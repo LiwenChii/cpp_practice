@@ -8,8 +8,8 @@ using std::ostream;
 using std::string;
 
 struct Person{
-	const string& getname()const{ return name; };
-	const string& getaddress()const{ return address; };
+	const string& getname()const{ return name; }
+	const string& getaddress()const{ return address; }
 
 	string name;
 	string address;
